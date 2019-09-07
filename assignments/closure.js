@@ -33,7 +33,7 @@ console.log(myCounter()); // 2
 // ==== Challenge 3: Make `counterMaker` more sophisticated ====
 // It should have a `limit` parameter. Any counters we make with `counterMaker`
 // will refuse to go over the limit, and start back at 1.
-var a = counterMaker;
+var a = counterMaker();
 for (i = 0; i < 10; ++i) 
 { 
   console.log(a); 
